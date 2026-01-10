@@ -1,32 +1,33 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# fxtas
+# rSuStaIn
 
 <!-- badges: start -->
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/UCD-IDDRC/fxtas/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/UCD-IDDRC/fxtas/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/UCD-IDDRC/rSuStaIn/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/UCD-IDDRC/rSuStaIn/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/UCD-IDDRC/fxtas/graph/badge.svg)](https://app.codecov.io/gh/UCD-IDDRC/fxtas)
+coverage](https://codecov.io/gh/UCD-IDDRC/rSuStaIn/graph/badge.svg)](https://app.codecov.io/gh/UCD-IDDRC/rSuStaIn)
 <!-- badges: end -->
 
-The goal of `fxtas` is to apply the Ordinal SuStaIn algorithm (Young et
-al. (2021)) to study disease progression in fragile X-associated
-tremor/ataxia syndrome,  
-as described in Morrison et al (not yet published), “Progression of
+The goal of `rSuStaIn` is to provide an R implementation of the Ordinal SuStaIn algorithm (Young et
+al. (2021)) for studying disease progression through subtype and stage inference.
+
+This package was originally developed to study progression in fragile X-associated
+tremor/ataxia syndrome (FXTAS), as described in Morrison et al (not yet published), "Progression of
 fragile X-associated tremor/ataxia syndrome revealed by subtype and
-stage inference”.
+stage inference". It has been generalized as rSuStaIn to allow application to other diseases and datasets.
 
 ## Installation
 
-You can install the development version of fxtas from
+You can install the development version of rSuStaIn from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("UCD-IDDRC/fxtas")
+devtools::install_github("UCD-IDDRC/rSuStaIn")
 ```
 
 ## Running the analyses

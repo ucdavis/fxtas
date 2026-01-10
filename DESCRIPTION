@@ -1,13 +1,13 @@
-Package: fxtas
-Title: FXTAS
+Package: rSuStaIn
+Title: R Implementation of SuStaIn Algorithm
 Version: 0.0.0.9052
 Authors@R: c(
     person("Douglas Ezra", "Morrison", , "demorrison@ucdavis.edu", role = c("cre", "aut")),
     person("Matthew", "Ponzini", , "mdponzini@ucdavis.edu", role = c("aut")))
-Description: PKG_DESC.
+Description: An R package for applying the Ordinal SuStaIn (Subtype and Stage Inference) algorithm to study disease progression.
 License: MIT + file LICENSE
-URL: https://github.com/ucd-iddrc/fxtas, https://ucd-iddrc.github.io/fxtas/
-BugReports: https://github.com/ucd-iddrc/fxtas/issues
+URL: https://github.com/ucd-iddrc/rSuStaIn, https://ucd-iddrc.github.io/rSuStaIn/
+BugReports: https://github.com/ucd-iddrc/rSuStaIn/issues
 Imports: 
     and,
     base,
