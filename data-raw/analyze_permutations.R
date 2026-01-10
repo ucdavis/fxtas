@@ -5,7 +5,7 @@
 
 cli::cli_alert_info('\nStarting at: {Sys.time()}')
 
-library(fxtas)
+library(rSuStaIn)
 library(dplyr)
 
 args = commandArgs(trailingOnly = TRUE)

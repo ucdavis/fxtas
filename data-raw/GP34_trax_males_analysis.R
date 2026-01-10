@@ -5,7 +5,7 @@ print(getwd())
 library(reticulate)
 py_config()
 
-library(fxtas)
+library(rSuStaIn)
 library(tidyverse)
 library(pander)
 #reticulate::use_condaenv("fxtas39", required = FALSE)

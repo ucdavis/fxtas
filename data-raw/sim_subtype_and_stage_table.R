@@ -1,6 +1,6 @@
 # see SuStaIn-simulated-data.qmd for the full script to generate this data
 
-library(fxtas)
+library(rSuStaIn)
 library(reticulate)
 results =
   "output/pickle_files/sample_data_subtype2.pickle" |>

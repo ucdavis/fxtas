@@ -5,7 +5,7 @@ cli::cli_alert_info('\nStarting at: {Sys.time()}')
 library(reticulate)
 py_config()
 
-# library(fxtas)
+# library(rSuStaIn)
 devtools::load_all()
 library(tidyverse)
 library(pander)

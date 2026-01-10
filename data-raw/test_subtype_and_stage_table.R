@@ -1,4 +1,4 @@
-library(fxtas)
+library(rSuStaIn)
 library(reticulate)
 results =
   "output/output.fixed_CV/rds_files/sample_data_subtype3.rds" |>

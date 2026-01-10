@@ -1,4 +1,4 @@
-library(fxtas)
+library(rSuStaIn)
 local = extract_results_from_pickle(
   output_folder = "output/output.longest",
   format_sst = FALSE,
