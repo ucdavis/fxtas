@@ -4,12 +4,12 @@ library(ggplot2)
 output_path <-
   fs::path_package("extdata/sim_data", package = "fxtas")
 
-figs <- fxtas::extract_figs_from_pickle(
+figs <- rSuStaIn::extract_figs_from_pickle(
   output_folder = output_path,
   n = 3
 )
 
-plot_data <- fxtas:::compact_pvd_data_prep(figs = figs)
+plot_data <- rSuStaIn:::compact_pvd_data_prep(figs = figs)
 
 tile_width <- 1
 tile_height = 1

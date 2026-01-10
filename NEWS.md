@@ -1,4 +1,10 @@
-# fxtas (development version)
+# rSuStaIn (development version)
+
+## Package Rebranding
+
+* Renamed package from "fxtas" to "rSuStaIn" to reflect its general applicability
+* Updated all package references, documentation, and URLs
+* The package was originally developed for FXTAS research but has been generalized for broader use with the SuStaIn algorithm
 
 ## Manuscript
 
@@ -71,7 +77,7 @@ in `analyses/`
 
 - added test for `compile_biomarker_group_list()`
 
-# fxtas 0.0.0.9000
+# rSuStaIn 0.0.0.9000
 
 * Added a `NEWS.md` file to track changes to the package.
 

@@ -24,7 +24,7 @@ for (i in colnames(test_data))
 
 # test =
 #   waldo::compare(y = test_data,
-#                  x = fxtas::test_data,
+#                  x = rSuStaIn::test_data,
 #                  ignore_attr = "problems") |>
 #   print()
 #

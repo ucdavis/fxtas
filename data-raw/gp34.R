@@ -75,7 +75,7 @@ if (data_exists("gp34")) {
 
   test =
     waldo::compare(y = gp34,
-                   x = fxtas::gp34,
+                   x = rSuStaIn::gp34,
                    ignore_attr = "problems") |>
     print()
 

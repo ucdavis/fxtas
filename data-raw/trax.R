@@ -110,7 +110,7 @@ if (data_exists("trax")) {
 
   test <- waldo::compare(
     y = trax,
-    x = fxtas::trax,
+    x = rSuStaIn::trax,
     ignore_attr = "problems"
   ) |> print()
 
