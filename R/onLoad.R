@@ -1,6 +1,6 @@
 pySuStaIn <- NULL # nolint: object_name_linter
 
-#' @title Actions taken when `fxtas` is loaded
+#' @title Actions taken when `rSuStaIn` is loaded
 #' @description
 #' based on https://rstudio.github.io/reticulate/articles/package.html
 #' #delay-loading-python-modules
