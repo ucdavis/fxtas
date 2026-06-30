@@ -58,6 +58,7 @@ on Dr. Bourgeois's recommendation.
 ## Package setup
 
 * moved `analyses/` into `inst` (#120)
+* removed `veccompare` and `pryr` from `Suggests`; both were archived from CRAN and unused in the package, which broke dependency resolution on all CI jobs (#157)
 * updated test-coverage.yaml workflow
 * updated readme to specify new location of manuscript source code 
 in `analyses/`
