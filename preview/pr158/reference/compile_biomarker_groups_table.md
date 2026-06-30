@@ -28,6 +28,11 @@ compile_biomarker_groups_table(
 
   which colors to use
 
+- ...:
+
+  additional arguments passed to
+  [`compile_biomarker_group_list()`](https:/UCD-IDDRC.github.io/fxtas/preview/pr158/reference/compile_biomarker_group_list.md)
+
 ## Value
 
 a

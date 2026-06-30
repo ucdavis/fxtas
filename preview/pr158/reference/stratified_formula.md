@@ -28,5 +28,5 @@ a [`formula()`](https://rdrr.io/r/stats/formula.html) object
 ``` r
 stratified_formula(c("Sepal.Length" ,"Sepal.Width"), "Species")
 #> ~Sepal.Length + Sepal.Width | Species
-#> <environment: 0x564d703049b0>
+#> <environment: 0x55bb855a39e8>
 ```
