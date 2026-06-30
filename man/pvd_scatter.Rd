@@ -16,7 +16,7 @@ pvd_scatter(
 
 \item{nrow_colors}{an \link{integer}}
 
-\item{group_colors}{palette for \link[ggplot2:scale_manual]{ggplot2::scale_color_manual}}
+\item{group_colors}{palette for \link[ggplot2:scale_color_manual]{ggplot2::scale_color_manual}}
 
 \item{legend_text_size}{a \link[grid:unit]{grid::unit}}
 }

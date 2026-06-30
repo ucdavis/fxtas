@@ -12,7 +12,7 @@ get_biomarker_events_table(biomarker_levels, do_factor = TRUE)
 \item{do_factor}{whether to turn \code{biomarker} column into factor and sort on it, after \code{level}}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df}
+a \link[tibble:tbl_df]{tibble::tbl_df}
 }
 \description{
 Construct biomarker events table

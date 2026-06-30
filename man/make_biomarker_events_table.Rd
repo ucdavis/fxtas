@@ -12,7 +12,7 @@ make_biomarker_events_table(biomarker_levels, biomarker_groups)
 \item{biomarker_groups}{todo}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df}
+a \link[tibble:tbl_df]{tibble::tbl_df}
 }
 \description{
 Construct biomarker events table

@@ -7,12 +7,12 @@
 create_scid_domains(dataset, scid_vars = all_scid_vars)
 }
 \arguments{
-\item{dataset}{a \link[tibble:tbl_df-class]{tibble::tbl_df} containing all of \code{scid_vars} as columns}
+\item{dataset}{a \link[tibble:tbl_df]{tibble::tbl_df} containing all of \code{scid_vars} as columns}
 
 \item{scid_vars}{a \code{\link[=character]{character()}} vector}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df}
+a \link[tibble:tbl_df]{tibble::tbl_df}
 }
 \description{
 Create SCID domain variables

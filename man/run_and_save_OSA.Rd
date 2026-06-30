@@ -29,7 +29,7 @@ run_and_save_OSA(
 \item{rda_filename}{name of rda file containing environment used to run analyses}
 
 \item{...}{
-  Arguments passed on to \code{\link[=run_OSA]{run_OSA}}
+  Arguments passed on to \code{\link{run_OSA}}
   \describe{
     \item{\code{prob_score}}{\link{array} probability of each score for all subjects across all biomarkers
 \itemize{

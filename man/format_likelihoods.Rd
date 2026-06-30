@@ -10,7 +10,7 @@ format_likelihoods(likelihoods)
 \item{likelihoods}{todo}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df}
+a \link[tibble:tbl_df]{tibble::tbl_df}
 }
 \description{
 Title

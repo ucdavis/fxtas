@@ -13,7 +13,7 @@ combine_subtype_and_demos(patient_data, subtype_data)
 (produced as a list element by \code{\link[=extract_results_from_pickle]{extract_results_from_pickle()}})}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df} combining \code{patient_data} and \code{subtype_data}
+a \link[tibble:tbl_df]{tibble::tbl_df} combining \code{patient_data} and \code{subtype_data}
 via \code{\link[dplyr:bind_cols]{dplyr::bind_cols()}}
 (assuming they were provided in the same row-order)
 }

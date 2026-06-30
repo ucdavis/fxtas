@@ -19,7 +19,7 @@ order of biomarkers to use}
 \item{biomarker_var}{either "biomarker" or "biomarker_label"}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df}
+a \link[tibble:tbl_df]{tibble::tbl_df}
 }
 \description{
 plot_compact_pvd: data prep

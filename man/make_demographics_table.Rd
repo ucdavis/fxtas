@@ -22,11 +22,8 @@ make_demographics_table(
 
 \item{make_ft}{\link{logical} whether to convert to flextable}
 
-\item{...}{
-  Arguments passed on to \code{\link[=format_demographics_table_as_flextable]{format_demographics_table_as_flextable}}
-  \describe{
-    \item{\code{}}{}
-  }}
+\item{...}{additional arguments passed to
+\code{\link[=format_demographics_table_as_flextable]{format_demographics_table_as_flextable()}}}
 }
 \value{
 a \link[flextable:flextable]{flextable::flextable}
