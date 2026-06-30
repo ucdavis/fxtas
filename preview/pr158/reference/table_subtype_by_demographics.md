@@ -125,8 +125,7 @@ table_subtype_by_demographics(
       denominators. In these cases, pass an integer or a data frame.
       Refer to the
       [`?cards::ard_tabulate(denominator)`](https://insightsengineering.github.io/cards/latest-tag/reference/ard_tabulate.html)
-      help file for details. When a data frame is passed, this data
-      frame is used to calculate header counts.
+      help file for details.
 
   `include`
 
