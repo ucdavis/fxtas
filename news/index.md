@@ -2,6 +2,13 @@
 
 ## fxtas (development version)
 
+### Internal
+
+- Added a scheduled `Clean up PR Previews` workflow that prunes
+  closed-PR `gh-pages` previews and compacts `gh-pages` history, so
+  deleted render snapshots stop bloating the repo (closes
+  [\#155](https://github.com/ucd-iddrc/fxtas/issues/155)).
+
 ### Manuscript
 
 - Moved manuscript to `analyses/`
