@@ -3,7 +3,7 @@
 #' @param dataset passed to [compile_biomarker_group_list()]
 #' @param biomarker_group_list todo
 #' @param colors which colors to use
-#' @inheritDotParams compile_biomarker_group_list
+#' @param ... additional arguments passed to [compile_biomarker_group_list()]
 #'
 #' @returns a [tibble::tbl_df]
 #' @export

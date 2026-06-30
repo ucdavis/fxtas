@@ -17,6 +17,8 @@ compile_biomarker_groups_table(
 \item{biomarker_group_list}{todo}
 
 \item{colors}{which colors to use}
+
+\item{...}{additional arguments passed to \code{\link[=compile_biomarker_group_list]{compile_biomarker_group_list()}}}
 }
 \value{
 a \link[tibble:tbl_df]{tibble::tbl_df}

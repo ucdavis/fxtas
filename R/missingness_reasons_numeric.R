@@ -2,7 +2,6 @@
 #'
 #' @param x the original vector to be turned into a numeric
 #' @param x.clean the cleaned vector
-#' @param ...
 #'
 #' @inheritDotParams clean_numeric
 #' @returns a [factor] [vector] corresponding to the elements of `x`,
