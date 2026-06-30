@@ -25,7 +25,8 @@ pvd_scatter(
 
 - group_colors:
 
-  palette for ggplot2::scale_color_manual
+  palette for
+  [ggplot2::scale_color_manual](https://ggplot2.tidyverse.org/reference/scale_manual.html)
 
 - legend_text_size:
 

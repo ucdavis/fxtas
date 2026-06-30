@@ -83,6 +83,14 @@
 
 - moved `analyses/` into `inst`
   ([\#120](https://github.com/ucd-iddrc/fxtas/issues/120))
+- removed `veccompare` and `pryr` from `Suggests`; both were archived
+  from CRAN and unused in the package, which broke dependency resolution
+  on all CI jobs
+  ([\#157](https://github.com/ucd-iddrc/fxtas/issues/157))
+- dropped the `devtag` roclet (no `@dev` tags were in use; internal
+  functions already use `@keywords internal`) and regenerated `man/`
+  with roxygen2 8.0.0, fixing the `Documentation check` job
+  ([\#159](https://github.com/ucd-iddrc/fxtas/issues/159))
 - updated test-coverage.yaml workflow
 - updated readme to specify new location of manuscript source code in
   `analyses/`

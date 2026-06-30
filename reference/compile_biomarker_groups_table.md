@@ -30,10 +30,8 @@ compile_biomarker_groups_table(
 
 - ...:
 
-  Arguments passed on to
-  [`compile_biomarker_group_list`](https://UCD-IDDRC.github.io/fxtas/reference/compile_biomarker_group_list.md)
-
-  :   
+  additional arguments passed to
+  [`compile_biomarker_group_list()`](https://UCD-IDDRC.github.io/fxtas/reference/compile_biomarker_group_list.md)
 
 ## Value
 

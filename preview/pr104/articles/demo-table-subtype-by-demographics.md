@@ -1,10 +1,12 @@
 # demo table_subtype_by_demographics()
 
 ``` r
+
 library(fxtas)
 ```
 
 ``` r
+
 patient_data = sim_data |>
   dplyr::filter(.data$Category == "Patient")
 table = sim_subtype_and_stage_table

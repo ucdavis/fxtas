@@ -18,4 +18,6 @@ Useful links:
 
 Authors:
 
+- Douglas Ezra Morrison <demorrison@ucdavis.edu>
+
 - Matthew Ponzini <mdponzini@ucdavis.edu>
