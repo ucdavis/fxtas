@@ -44,7 +44,7 @@ indicating how to order the subtypes}
 \item{verbose}{whether to print messages}
 
 \item{...}{
-  Arguments passed on to \code{\link[=format_results_list]{format_results_list}}
+  Arguments passed on to \code{\link{format_results_list}}
   \describe{
     \item{\code{format_sst}}{should the subtype and stage table be formatted?
 (doesn't work for cross-validation fold pickle-files)}

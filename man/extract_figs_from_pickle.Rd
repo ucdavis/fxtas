@@ -34,7 +34,7 @@ extract_figs_from_pickle(
 \item{biomarker_levels}{\link{list} containing biomarker ordinal level info}
 
 \item{...}{
-  Arguments passed on to \code{\link[=plot_positional_var]{plot_positional_var}}
+  Arguments passed on to \code{\link{plot_positional_var}}
   \describe{
     \item{\code{samples_sequence}}{todo}
     \item{\code{samples_f}}{todo}

@@ -10,7 +10,7 @@ search_articles(query)
 \item{query}{a \link{character} string}
 }
 \value{
-a \link[tibble:tbl_df-class]{tibble::tbl_df}
+a \link[tibble:tbl_df]{tibble::tbl_df}
 }
 \description{
 Search PubMed for FXTAS-related articles

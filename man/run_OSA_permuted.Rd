@@ -19,7 +19,7 @@ run_OSA_permuted(
 \item{patient_data}{patient biomarker data}
 
 \item{...}{
-  Arguments passed on to \code{\link[=run_OSA]{run_OSA}}
+  Arguments passed on to \code{\link{run_OSA}}
   \describe{
     \item{\code{prob_score}}{\link{array} probability of each score for all subjects across all biomarkers
 \itemize{

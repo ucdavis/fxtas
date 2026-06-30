@@ -7,10 +7,10 @@
 collapse_mri_levels(dataset, ...)
 }
 \arguments{
-\item{dataset}{a \link[tibble:tbl_df-class]{tibble::tbl_df}}
+\item{dataset}{a \link[tibble:tbl_df]{tibble::tbl_df}}
 
 \item{...}{
-  Arguments passed on to \code{\link[=collapse_mri_level]{collapse_mri_level}}
+  Arguments passed on to \code{\link{collapse_mri_level}}
   \describe{
     \item{\code{x}}{a MRI variable (\link{factor})}
     \item{\code{levels}}{\link{character} string vector of levels to collapse}

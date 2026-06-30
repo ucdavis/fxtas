@@ -76,7 +76,7 @@ Current options are \code{"level"} and \code{"subscript"}}
 \item{strip_text_size}{passed to \code{ggtext::element_markdown()}}
 
 \item{...}{
-  Arguments passed on to \code{\link[=compact_pvd_data_prep]{compact_pvd_data_prep}}
+  Arguments passed on to \code{\link{compact_pvd_data_prep}}
   \describe{
     \item{\code{biomarker_order}}{a \link{character} vector specifying the
 order of biomarkers to use}

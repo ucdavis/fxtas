@@ -5,7 +5,8 @@
 #' @param strata names of column variable, specified as [character]
 #' @param vars names of row variables, specified as [character]
 #' @param make_ft [logical] whether to convert to flextable
-#' @inheritDotParams format_demographics_table_as_flextable -x
+#' @param ... additional arguments passed to
+#' [format_demographics_table_as_flextable()]
 #' @inherit format_demographics_table_as_flextable return
 #' @export
 #'

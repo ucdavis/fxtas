@@ -100,7 +100,7 @@ plot_positional_var(
 \item{use_labels}{whether to use biomarker labels or variable names}
 
 \item{...}{
-  Arguments passed on to \code{\link[=autoplot.PF]{autoplot.PF}}
+  Arguments passed on to \code{\link{autoplot.PF}}
   \describe{
     \item{\code{object}}{a "PF" object (created by \code{compute_position_frequencies()})}
     \item{\code{size.y}}{size of biomarker event labels}
