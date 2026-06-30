@@ -48,7 +48,7 @@ incompatible--distribution channel. (\code{ignore_installed} is an alias for
   }}
 }
 \description{
-This function is a wrapper for \link[reticulate:conda-tools]{reticulate::conda_install}.
+This function is a wrapper for \link[reticulate:conda_install]{reticulate::conda_install}.
 Its implementation follows the instructions in:
 \itemize{
 \item https://rstudio.github.io/reticulate/articles/package.html

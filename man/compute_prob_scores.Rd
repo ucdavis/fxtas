@@ -28,7 +28,7 @@ compute_prob_scores(
 \item{verbose}{\code{\link[=logical]{logical()}} indicating whether to print debugging information}
 
 \item{...}{
-  Arguments passed on to \code{\link[=compute_prob_dist]{compute_prob_dist}}
+  Arguments passed on to \code{\link{compute_prob_dist}}
   \describe{
     \item{\code{prob_correct}}{the probability of correctly classifying the underlying biomarker level: p(obs = true)}
   }}

@@ -10,7 +10,7 @@
 \item{object}{a \link{list} of \code{Sustain_model} objects}
 
 \item{...}{
-  Arguments passed on to \code{\link[=stage_barplot.default]{stage_barplot.default}}
+  Arguments passed on to \code{\link{stage_barplot.default}}
   \describe{
     \item{\code{xmax}}{largest x-value to display}
     \item{\code{include_type_0}}{\link{logical} whether to include Type 0 in the plot}

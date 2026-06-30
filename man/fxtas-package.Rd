@@ -22,6 +22,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Douglas Ezra Morrison \email{demorrison@ucdavis.edu}
   \item Matthew Ponzini \email{mdponzini@ucdavis.edu}
 }
 
